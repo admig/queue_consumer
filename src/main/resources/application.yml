@@ -1,0 +1,11 @@
+server:
+  port: 7777
+spring:
+  activemq:
+    broker-url: tcp://47.92.83.52:61616
+    user: admin
+    password: admin
+#  jms:
+#    pub-sub-domain: false   #false表示是queue   true表示topic
+
+myqueue: queue
