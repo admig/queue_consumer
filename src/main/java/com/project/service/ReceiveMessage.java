@@ -21,6 +21,7 @@ public class ReceiveMessage {
         try {
             // message.acknowledge();  // 签收
             System.out.println("---queue:" + message.getText());
+            System.out.println("创建分支");
         } catch (JMSException e) {
             e.printStackTrace();
         }
